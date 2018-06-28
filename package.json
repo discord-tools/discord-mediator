@@ -1,0 +1,37 @@
+{
+    "scripts": {
+        "test": "mocha $TEST"
+    },
+    "dependencies": {
+        "discord.js": "^11.3.2",
+        "uws": "^10.148.1"
+    },
+    "devDependencies": {
+        "assert": "^1.4.1",
+        "chai": "^4.1.2",
+        "mocha": "^5.2.0",
+        "should": "^13.2.1"
+    },
+    "name": "discord-mediator",
+    "version": "0.0.1",
+    "description": "High-level wrapper for discord-js API",
+    "main": "lib/discord-mediator.js",
+    "directories": {
+        "lib": "lib",
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@gitlab.com/strat0s/discord-mediator.git"
+    },
+    "keywords": [
+        "discord",
+        "wrapper"
+    ],
+    "author": "Eric Crosson <eric.s.crosson@utexas.edu> (https://github.com/EricCrosson)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://gitlab.com/strat0s/discord-mediator/issues"
+    },
+    "homepage": "https://gitlab.com/strat0s/discord-mediator#README"
+}
